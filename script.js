@@ -5,7 +5,7 @@ const releasesData = [
         year: '2025',
         date: '2025',
         image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=870x10000:format=png/path/s97f07215ba52dca5/image/i97b65b7247a3b4f6/version/1760262821/image.png',
-        description: 'カセットテープ作品。全8曲収録。プロデュース: chibi_fire / アートワーク: MISONI',
+        description: '民族調音楽とエレクトロサウンドの融合　3名のキャストのボイス、コーラスが響き合うアルバム',
         link: 'trinity.html'
     },
     {
@@ -13,19 +13,19 @@ const releasesData = [
         year: '2025',
         date: '2025年4月27日',
         image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=574x10000:format=png/path/s97f07215ba52dca5/image/ic028354757f3116e/version/1745591142/image.png',
-        description: 'すずきつづみ & さとうささら。全3曲収録。',
+        description: '澄み渡る空、満点の星、常夏の恋　夏をイメージしつづみ＆ささらが歌うたミニアルバム',
         link: 'tropical-ascension.html'
     }
 ];
 
 const worksData = [
-    { title: 'Trinity', year: '2025', image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=870x10000:format=png/path/s97f07215ba52dca5/image/i97b65b7247a3b4f6/version/1760262821/image.png', link: 'trinity.html' },
-    { title: 'Tropical Ascension', year: '2025', image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=574x10000:format=png/path/s97f07215ba52dca5/image/ic028354757f3116e/version/1745591142/image.png', link: 'tropical-ascension.html' },
-    { title: 'CV', year: '2023', image: 'img/cv.png', link: 'cv.html' },
-    { title: 'Harmonious', year: '2022', image: 'img/harmonious.jpg', link: 'harmonious.html' },
-    { title: 'Turn Up the Volume!', year: '2019', image: 'img/turn_up.jpg', link: 'turn-up-the-volume.html' },
-    { title: 'Nostalgie', year: '2018', image: 'img/nostalgie.png', link: 'nostalgie.html' },
-    { title: 'Fruit Parfait', year: '2017', image: 'img/fruit_parfait.jpg', link: 'fruit-parfait.html' }
+    { title: 'Trinity', year: '2025', image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=870x10000:format=png/path/s97f07215ba52dca5/image/i97b65b7247a3b4f6/version/1760262821/image.png', description: '民族調音楽とエレクトロサウンドの融合　3名のキャストのボイス、コーラスが響き合うアルバム', link: 'trinity.html' },
+    { title: 'Tropical Ascension', year: '2025', image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=574x10000:format=png/path/s97f07215ba52dca5/image/ic028354757f3116e/version/1745591142/image.png', description: '澄み渡る空、満点の星、常夏の恋　夏をイメージしつづみ＆ささらが歌うたミニアルバム', link: 'tropical-ascension.html' },
+    { title: 'CV', year: '2023', image: 'img/cv.png', description: 'CeVIO と VoiSona を代表するキャスト2名を　フィーチャーしたアルバム。全8曲。', link: 'cv.html' },
+    { title: 'Harmonious', year: '2022', image: 'img/harmonious.jpg', description: '世界中のキッズが待っていた　CeVIO AI & CeVIO、新旧さとうささらが歌う珠玉の全10曲', link: 'harmonious.html' },
+    { title: 'Turn Up the Volume!', year: '2019', image: 'img/turn_up.jpg', description: '思わずボリュームを上げたくなる　EDM、ロックトラックを収録したミニアルバム', link: 'turn-up-the-volume.html' },
+    { title: 'Nostalgie', year: '2018', image: 'img/nostalgie.png', description: '"この歌声、今でもキミにとどいてるかな"　懐かしい気持ちにさせるさとうささらのミニアルバム', link: 'nostalgie.html' },
+    { title: 'Fruit Parfait', year: '2017', image: 'img/fruit_parfait.jpg', description: 'さとうささらが様々なジャンルの曲を歌うよ♪　chibi_fireが贈る2nd ミニアルバム', link: 'fruit-parfait.html' }
 ];
 
 // ===== DOM Elements =====

@@ -20,17 +20,21 @@
     <header id="header">
         <nav class="nav-container">
             <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">chibi_fire</a></div>
-            <button class="hamburger" id="hamburger" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="nav-controls">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <span class="icon-sun">☀</span>
+                    <span class="icon-moon">☾</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="releases.html">Releases</a></li>
-                <li><a href="works.html">Works</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="profile.html">Profile</a></li>
+                <li><a href="profile.html">Profile & Links</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
@@ -39,37 +43,51 @@
     <!-- Contact -->
     <section id="contact" class="section contact visible" style="padding-top: 8rem; opacity: 1; transform: none;">
         <div class="container">
-            <h2 class="section-title">Contact & Links</h2>
-            <div class="social-links">
-                <a href="https://www.youtube.com/@chibifire" target="_blank" rel="noopener noreferrer"
-                    class="social-link">
-                    <span class="social-icon">▶</span>
-                    <span>YouTube</span>
-                </a>
-                <a href="https://soundcloud.com/chibi_fire" target="_blank" rel="noopener noreferrer"
-                    class="social-link">
-                    <span class="social-icon">♪</span>
-                    <span>SoundCloud</span>
-                </a>
-                <a href="https://x.com/chi_bi_fire" target="_blank" rel="noopener noreferrer" class="social-link">
-                    <span class="social-icon">𝕏</span>
-                    <span>X (Twitter)</span>
-                </a>
-                <a href="https://chibi-fire.booth.pm/" target="_blank" rel="noopener noreferrer" class="social-link">
-                    <span class="social-icon">🛒</span>
-                    <span>BOOTH</span>
-                </a>
-                <a href="mailto:chibifiremario@gmail.com" class="social-link">
-                    <span class="social-icon">✉</span>
-                    <span>Email</span>
-                </a>
-            </div>
+            <h2 class="section-title">Contact</h2>
+
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
+                action="/thanks.html" class="contact-form">
+                <input type="hidden" name="form-name" value="contact" />
+
+                <p class="form-note">* Required fields（必須項目）</p>
+
+                <div class="form-group">
+                    <label for="name">Name（お名前） <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email（メールアドレス） <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry-type">Inquiry type（お問い合わせ種別）</label>
+                    <select id="inquiry-type" name="inquiry-type">
+                        <option value="">選択してください</option>
+                        <option value="楽曲制作">楽曲制作のご依頼</option>
+                        <option value="コラボレーション">コラボレーションのご相談</option>
+                        <option value="その他">その他のお問い合わせ</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message（お問い合わせ内容） <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="visually-hidden">
+                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 chibi_fire. All rights reserved.</p>
+        <p>&copy; 2026 chibi_fire. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
