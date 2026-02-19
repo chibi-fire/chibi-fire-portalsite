@@ -298,6 +298,7 @@ body:not(.dark-mode) .icon-moon {
     justify-content: center;
     background: transparent;
     padding: var(--spacing-lg) var(--spacing-md);
+    padding-top: 8rem; /* Add top padding to prevent logo from being cut off by header */
     position: relative;
     overflow: hidden;
 }
