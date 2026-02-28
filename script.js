@@ -1,6 +1,14 @@
 // ===== Data =====
 const releasesData = [
     {
+        title: 'Between',
+        year: '2026',
+        date: '2026年3月8日',
+        image: 'img/Between.png',
+        description: 'あと少しの勇気が、今と未来を繋いでいく　揺れる瞬間を3人のキャストが歌うミニアルバム',
+        link: 'between.html'
+    },
+    {
         title: 'Trinity',
         year: '2025',
         date: '2025',
@@ -13,12 +21,13 @@ const releasesData = [
         year: '2025',
         date: '2025年4月27日',
         image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=574x10000:format=png/path/s97f07215ba52dca5/image/ic028354757f3116e/version/1745591142/image.png',
-        description: '澄み渡る空、満点の星、常夏の恋　夏をイメージしつづみ＆ささらが歌うたミニアルバム',
+        description: '澄み渡る空、満点の星、常夏の恋　夏をイメージしたつづみ＆ささらが歌うミニアルバム',
         link: 'tropical-ascension.html'
     }
 ];
 
 const worksData = [
+    { title: 'Between', year: '2026', image: 'img/Between.png', description: 'あと少しの勇気が、今と未来を繋いでいく　揺れる瞬間を3人のキャストが歌うミニアルバム', link: 'between.html' },
     { title: 'Trinity', year: '2025', image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=870x10000:format=png/path/s97f07215ba52dca5/image/i97b65b7247a3b4f6/version/1760262821/image.png', description: '民族調音楽とエレクトロサウンドの融合　3名のキャストのボイス、コーラスが響き合うアルバム', link: 'trinity.html' },
     { title: 'Tropical Ascension', year: '2025', image: 'https://image.jimcdn.com/app/cms/image/transf/dimension=574x10000:format=png/path/s97f07215ba52dca5/image/ic028354757f3116e/version/1745591142/image.png', description: '澄み渡る空、満点の星、常夏の恋　夏をイメージしつづみ＆ささらが歌うたミニアルバム', link: 'tropical-ascension.html' },
     { title: 'CV', year: '2023', image: 'img/cv.png', description: 'CeVIO と VoiSona を代表するキャスト2名を　フィーチャーしたアルバム。全8曲。', link: 'cv.html' },
