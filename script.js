@@ -12,7 +12,7 @@ const releasesData = [
         title: 'Trinity',
         year: '2025',
         date: '2025',
-        image: 'trinity.png',
+        image: 'img/trinity.png',
         description: '民族調音楽とエレクトロサウンドの融合　3名のキャストのボイスとコーラスが響き合うアルバム',
         link: 'trinity.html'
     },
@@ -20,7 +20,7 @@ const releasesData = [
         title: 'Tropical Ascension',
         year: '2025',
         date: '2025年4月27日',
-        image: 'tropical_ascension.png',
+        image: 'img/tropical_ascension.png',
         description: '澄み渡る空、満点の星、常夏の恋　夏をイメージしたつづみ＆ささらが歌うミニアルバム',
         link: 'tropical-ascension.html'
     }
